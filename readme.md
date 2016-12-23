@@ -60,7 +60,13 @@ Jenkins 관리 -> 플러그인 관리를 통해 설치
 "c:\cmd\nuget.exe" restore NCube2.0.sln
 ```
 <ul>
-  <li>- Execute Windows batch Command</li>
+  <li>
+    <ul>
+      <li>
+        Execute Windows batch Command
+      </li>
+    </ul>
+  </li>
 </ul>
 ```
 "C:\Program Files (x86)\MSBuild\14.0\Bin\MSBuild.exe" /p:Configuration=Release /p:SolutionDir=..\..\ /t:Build  Core\blue\blue.vcxproj
