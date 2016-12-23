@@ -41,7 +41,7 @@ Jenkins 관리 -> 플러그인 관리를 통해 설치
 
 1. 이름 지정후, FreeStyle Project로 등록
 2. General -> 고급 클릭 -> 사용자 빌드 경로 사용 체크 -> 프로젝트 디렉토리 경로 설정
- - ex) C:\Projects\NCube\source2.0
+ - 값: C:\Projects\NCube\source2.0
 3. 소스코드 관리 -> Git 사용 -> 
  - Repository : http://intra.novonetworks.com:8073/cube/NCube2.0.git
 ![image](uploads/jenkins-1.png)
