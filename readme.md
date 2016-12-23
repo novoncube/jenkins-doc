@@ -106,8 +106,8 @@ Jenkins 관리 -> 플러그인 관리를 통해 설치
 "C:\Program Files (x86)\MSBuild\14.0\Bin\MSBuild.exe" /p:Configuration=Release /p:SolutionDir=..\..\ /t:Build  Core.Facade\Core.Facade.vcxproj
 ```
  - Build a Visual Studio Project or solution using MSBuild
-  - 빌드하려는 순서대로 등록한다.
 ![image](uploads/jenkins-4.png)
+ - Build a Visual Studio Project or solution using MSBuild
 ![image](uploads/jenkins-5.png)
  - Run unit tests with MSTest
   - Test File : Z:\NCube\source2.0\NCube.Test\bin\Release\NCube.Test.dll
