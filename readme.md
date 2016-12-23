@@ -53,8 +53,8 @@ Jenkins 관리 -> 플러그인 관리를 통해 설치
  - 50 11 * * *
 ![image](uploads/jenkins-3.png)
 5. 빌드
-- `Add build step` 클릭 후, 아래의 요소들을 순서대로 추가합니다.
-- Execute Windows batch Command
+ - `Add build step` 클릭 후, 아래의 요소들을 순서대로 추가합니다.
+ - Execute Windows batch Command
 ```
 "C:\Windows\System32\subst.exe" z: c:\novo
 "c:\cmd\nuget.exe" restore NCube2.0.sln
