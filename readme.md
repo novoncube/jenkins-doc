@@ -116,8 +116,9 @@ Jenkins 관리 -> 플러그인 관리를 통해 설치
  - 위 구성을 마치면 `저장`
 
 ### 빌드 실행
+아래 그림에서 `Build Now`를 클릭
 ![image](uploads/jenkins-7.png)
-프로젝트에서 `Build Now`를 클릭하여 빌드 실행가능
+
 
 ### 매일 빌드 확인
 ![image](uploads/jenkins-8.png)
