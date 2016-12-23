@@ -19,7 +19,7 @@ Jenkins 관리 -> 플러그인 관리를 통해 설치
 
 ### 시스템 설정
 - Global properties -> Environment variables
- - 이름 : PATH
+ - 이름 : Path
  - 값 : z:\ICR\iris\dll
 
 ### Global Tool Configuration
@@ -44,7 +44,7 @@ Jenkins 관리 -> 플러그인 관리를 통해 설치
 3. 소스코드 관리 -> Git 사용 -> 
  - Repository : http://intra.novonetworks.com:8073/cube/NCube2.0.git
 ![image](uploads/jenkins-1.png)
- - Credentials : 아래와 같이 Gitlab ID, PW 등록
+ - Credentials : 아래와 같이 Gitlab Username, Password 등록
 ![image](uploads/jenkins-2.png)
 4. 빌드 유발
  - Build periodically
@@ -53,8 +53,8 @@ Jenkins 관리 -> 플러그인 관리를 통해 설치
  - 50 11 * * *
 ![image](uploads/jenkins-3.png)
 5. 빌드
- - 순서대로 넣습니다.
- - Execute Windows batch Command
+- `Add build step` 클릭 후, 아래의 요소들을 순서대로 추가합니다.
+- Execute Windows batch Command
 ```
 "C:\Windows\System32\subst.exe" z: c:\novo
 "c:\cmd\nuget.exe" restore NCube2.0.sln
