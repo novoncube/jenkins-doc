@@ -123,4 +123,4 @@ Jenkins 관리 -> 플러그인 관리를 통해 설치
 ### 매일 빌드 확인
 Build History를 통해 11시 51분에 빌드가 된 것을 확인할 수 있다
 <br/>
-<img src="uploads/jenkins-8.png" width="300"/>
+<img src="uploads/jenkins-8.png" width="500"/>
