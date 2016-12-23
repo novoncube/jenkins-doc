@@ -56,7 +56,7 @@ Jenkins 관리 -> 플러그인 관리를 통해 설치
 
 <ul>
   <li>
-  `Add build step` 클릭 후, 아래의 요소들을 순서대로 추가합니다.
+  <code>Add build step</code> 클릭 후, 아래의 요소들을 순서대로 추가합니다.
   </li>
   <li>
   Execute Windows batch Command
