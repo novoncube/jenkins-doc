@@ -65,7 +65,7 @@ Jenkins 관리 -> 플러그인 관리를 통해 설치
 </ul>
  
 ```
-"C:\Windows\System32\subst.exe" z: c:\novo
+"C:\Windows\System32\subst.exe" z: c:\Projects
 "c:\cmd\nuget.exe" restore NCube2.0.sln
 ```
 
